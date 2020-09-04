@@ -20,9 +20,12 @@ Constant parameters for the car i.e. mass and the drag coefficient are taken as 
 •	Find the error and use the PID controller with appropriate tuning parameter to tune the controller to an acceptable level of accuracy.  
 •	The tuning parameters you choose give the system a rise time of about 10secs and maximum overshoot of less than 5%.(rise time is the time taken to reach 90% of the steady state value)  
 ### Results:  
-<img src="graphs/cruise_c_basic.jpeg" heigth="150">  
+<img src="graphs/cruise_c_basic.jpeg" heigth="10"> with overshoot of 2.7% 
 
 ## Task 2:  
 • Update code to handle set point changes varying with the time of simulation.  
 • Change the dynamical model of the car to handle rolling friction(u = 0.01) as well.  
-• Design the controller to handle a constant slope of road.(positive or negative)
+• Design the controller to handle a constant slope of road.(positive or negative)  
+### Results:  
+<img src="graphs/task2_without_slope.jpeg" heigth="10">  
+<img src="graphs/task2_with_-slope.jpeg">  |  <img src="graphs/task2_with_+slope.jpeg">
