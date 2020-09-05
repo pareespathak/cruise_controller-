@@ -27,5 +27,6 @@ Constant parameters for the car i.e. mass and the drag coefficient are taken as 
 • Change the dynamical model of the car to handle rolling friction(u = 0.01) as well.  
 • Design the controller to handle a constant slope of road.(positive or negative)  
 ### Results:  
-<img src="graphs/task2_without_slope.jpeg" heigth="10">  
-<img src="graphs/task2_with_-slope.jpeg">  |  <img src="graphs/task2_with_+slope.jpeg">
+without slope <img src="graphs/task2_without_slope.jpeg" heigth="10"> | positive slope <img src="graphs/task2_with_+slope.jpeg">
+--------------------------------------------------------|-----------------------
+negative slope <img src="graphs/task2_with_-slope.jpeg">  | input velocities were <br /> v = 20 m/s  0 <t < 50 <br /> v = 40 m/s  50 <t < 300 <br /> v = 70 m/s  t > 300
