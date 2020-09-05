@@ -20,7 +20,8 @@ Constant parameters for the car i.e. mass and the drag coefficient are taken as 
 •	Find the error and use the PID controller with appropriate tuning parameter to tune the controller to an acceptable level of accuracy.  
 •	The tuning parameters you choose give the system a rise time of about 10secs and maximum overshoot of less than 5%.(rise time is the time taken to reach 90% of the steady state value)  
 ### Results:  
-<img src="graphs/cruise_c_basic.jpeg" heigth="10"> with overshoot of 2.7% 
+<img src="graphs/cruise_c_basic.jpeg" width="400"> | reference velocity = 40 m/s <br /> with overshoot of 2.7% 
+-------------------------------------------------- |-----------------------
 
 ## Task 2:  
 • Update code to handle set point changes varying with the time of simulation.  
