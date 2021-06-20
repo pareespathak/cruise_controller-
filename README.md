@@ -1,4 +1,9 @@
-# **CRUISE_CONTROLLER**
+# **CRUISE_CONTROLLER**  
+## How to use 
+`git clone https://github.com/pareespathak/cruise_controller-.git`  
+`pip3 install -r requirements.txt`  
+`cd codes`  
+`python cruise controller task 2.py`
 
 ## AIM:
 
